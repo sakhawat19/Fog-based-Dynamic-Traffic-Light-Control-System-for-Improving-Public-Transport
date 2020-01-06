@@ -1,0 +1,112 @@
+<routes>
+        <vType id="923" accel="1.4" decel="2" sigma="0.5" length="5" minGap="2.5" maxSpeed="60" guiShape="passenger"/>
+        <vType id="924" accel="1.4" decel="2" sigma="0.5" length="10" minGap="2.5" maxSpeed="60" guiShape="bus"/>
+
+        <route id="route1" edges="1to0 0to2" />
+        <route id="route2" edges="2to0 0to1" />
+        <route id="route3" edges="3to0 0to4" />
+        <route id="route4" edges="4to0 0to3" />        
+        
+    <vehicle id="0" type="924" route="route2" depart="0" color="0,0,1"/>
+    <vehicle id="1" type="924" route="route2" depart="2" color="0,0,1"/>
+    <vehicle id="2" type="923" route="route1" depart="3" color="0,1,0"/>
+    <vehicle id="3" type="923" route="route4" depart="4" color="1,1,0"/>
+    <vehicle id="4" type="923" route="route1" depart="25" color="0,1,0"/>
+    <vehicle id="5" type="923" route="route1" depart="31" color="0,1,0"/>
+    <vehicle id="6" type="924" route="route3" depart="31" color="1,0,0"/>
+    <vehicle id="7" type="924" route="route2" depart="67" color="0,0,1"/>
+    <vehicle id="8" type="924" route="route3" depart="72" color="1,0,0"/>
+    <vehicle id="9" type="924" route="route2" depart="74" color="0,0,1"/>
+    <vehicle id="10" type="923" route="route1" depart="81" color="0,1,0"/>
+    <vehicle id="11" type="923" route="route1" depart="92" color="0,1,0"/>
+    <vehicle id="12" type="924" route="route3" depart="98" color="1,0,0"/>
+    <vehicle id="13" type="923" route="route4" depart="106" color="1,1,0"/>
+    <vehicle id="14" type="924" route="route2" depart="120" color="0,0,1"/>
+    <vehicle id="15" type="924" route="route2" depart="123" color="0,0,1"/>
+    <vehicle id="16" type="924" route="route2" depart="125" color="0,0,1"/>
+    <vehicle id="17" type="923" route="route1" depart="126" color="0,1,0"/>
+    <vehicle id="18" type="924" route="route3" depart="129" color="1,0,0"/>
+    <vehicle id="19" type="923" route="route1" depart="132" color="0,1,0"/>
+    <vehicle id="20" type="924" route="route2" depart="147" color="0,0,1"/>
+    <vehicle id="21" type="924" route="route3" depart="149" color="1,0,0"/>
+    <vehicle id="22" type="924" route="route2" depart="159" color="0,0,1"/>
+    <vehicle id="23" type="923" route="route1" depart="171" color="0,1,0"/>
+    <vehicle id="24" type="923" route="route1" depart="179" color="0,1,0"/>
+    <vehicle id="25" type="924" route="route3" depart="220" color="1,0,0"/>
+    <vehicle id="26" type="923" route="route1" depart="239" color="0,1,0"/>
+    <vehicle id="27" type="924" route="route2" depart="253" color="0,0,1"/>
+    <vehicle id="28" type="924" route="route3" depart="256" color="1,0,0"/>
+    <vehicle id="29" type="924" route="route2" depart="258" color="0,0,1"/>
+    <vehicle id="30" type="924" route="route3" depart="258" color="1,0,0"/>
+    <vehicle id="31" type="924" route="route2" depart="281" color="0,0,1"/>
+    <vehicle id="32" type="924" route="route2" depart="283" color="0,0,1"/>
+    <vehicle id="33" type="923" route="route1" depart="292" color="0,1,0"/>
+    <vehicle id="34" type="924" route="route3" depart="293" color="1,0,0"/>
+    <vehicle id="35" type="924" route="route2" depart="296" color="0,0,1"/>
+    <vehicle id="36" type="924" route="route2" depart="298" color="0,0,1"/>
+    <vehicle id="37" type="924" route="route2" depart="343" color="0,0,1"/>
+    <vehicle id="38" type="923" route="route4" depart="347" color="1,1,0"/>
+    <vehicle id="39" type="923" route="route1" depart="352" color="0,1,0"/>
+    <vehicle id="40" type="924" route="route2" depart="357" color="0,0,1"/>
+    <vehicle id="41" type="923" route="route1" depart="389" color="0,1,0"/>
+    <vehicle id="42" type="923" route="route1" depart="402" color="0,1,0"/>
+    <vehicle id="43" type="924" route="route2" depart="414" color="0,0,1"/>
+    <vehicle id="44" type="924" route="route2" depart="430" color="0,0,1"/>
+    <vehicle id="45" type="924" route="route3" depart="434" color="1,0,0"/>
+    <vehicle id="46" type="923" route="route4" depart="451" color="1,1,0"/>
+    <vehicle id="47" type="923" route="route1" depart="459" color="0,1,0"/>
+    <vehicle id="48" type="924" route="route3" depart="468" color="1,0,0"/>
+    <vehicle id="49" type="924" route="route2" depart="490" color="0,0,1"/>
+    <vehicle id="50" type="924" route="route3" depart="494" color="1,0,0"/>
+    <vehicle id="51" type="924" route="route3" depart="512" color="1,0,0"/>
+    <vehicle id="52" type="923" route="route1" depart="528" color="0,1,0"/>
+    <vehicle id="53" type="923" route="route1" depart="530" color="0,1,0"/>
+    <vehicle id="54" type="924" route="route3" depart="530" color="1,0,0"/>
+    <vehicle id="55" type="924" route="route3" depart="531" color="1,0,0"/>
+    <vehicle id="56" type="924" route="route2" depart="538" color="0,0,1"/>
+    <vehicle id="57" type="923" route="route1" depart="543" color="0,1,0"/>
+    <vehicle id="58" type="924" route="route2" depart="550" color="0,0,1"/>
+    <vehicle id="59" type="924" route="route2" depart="555" color="0,0,1"/>
+    <vehicle id="60" type="924" route="route3" depart="582" color="1,0,0"/>
+    <vehicle id="61" type="924" route="route3" depart="606" color="1,0,0"/>
+    <vehicle id="62" type="924" route="route2" depart="609" color="0,0,1"/>
+    <vehicle id="63" type="923" route="route1" depart="629" color="0,1,0"/>
+    <vehicle id="64" type="923" route="route4" depart="635" color="1,1,0"/>
+    <vehicle id="65" type="923" route="route4" depart="640" color="1,1,0"/>
+    <vehicle id="66" type="923" route="route1" depart="642" color="0,1,0"/>
+    <vehicle id="67" type="923" route="route4" depart="646" color="1,1,0"/>
+    <vehicle id="68" type="924" route="route2" depart="659" color="0,0,1"/>
+    <vehicle id="69" type="923" route="route1" depart="660" color="0,1,0"/>
+    <vehicle id="70" type="923" route="route4" depart="683" color="1,1,0"/>
+    <vehicle id="71" type="923" route="route1" depart="687" color="0,1,0"/>
+    <vehicle id="72" type="923" route="route4" depart="688" color="1,1,0"/>
+    <vehicle id="73" type="924" route="route2" depart="704" color="0,0,1"/>
+    <vehicle id="74" type="924" route="route2" depart="706" color="0,0,1"/>
+    <vehicle id="75" type="923" route="route1" depart="709" color="0,1,0"/>
+    <vehicle id="76" type="924" route="route2" depart="727" color="0,0,1"/>
+    <vehicle id="77" type="923" route="route1" depart="731" color="0,1,0"/>
+    <vehicle id="78" type="923" route="route1" depart="733" color="0,1,0"/>
+    <vehicle id="79" type="924" route="route3" depart="747" color="1,0,0"/>
+    <vehicle id="80" type="924" route="route2" depart="785" color="0,0,1"/>
+    <vehicle id="81" type="923" route="route1" depart="801" color="0,1,0"/>
+    <vehicle id="82" type="923" route="route4" depart="801" color="1,1,0"/>
+    <vehicle id="83" type="923" route="route4" depart="802" color="1,1,0"/>
+    <vehicle id="84" type="923" route="route1" depart="814" color="0,1,0"/>
+    <vehicle id="85" type="924" route="route2" depart="828" color="0,0,1"/>
+    <vehicle id="86" type="924" route="route2" depart="832" color="0,0,1"/>
+    <vehicle id="87" type="924" route="route2" depart="843" color="0,0,1"/>
+    <vehicle id="88" type="924" route="route3" depart="851" color="1,0,0"/>
+    <vehicle id="89" type="924" route="route2" depart="865" color="0,0,1"/>
+    <vehicle id="90" type="924" route="route2" depart="879" color="0,0,1"/>
+    <vehicle id="91" type="923" route="route1" depart="906" color="0,1,0"/>
+    <vehicle id="92" type="923" route="route1" depart="909" color="0,1,0"/>
+    <vehicle id="93" type="923" route="route4" depart="913" color="1,1,0"/>
+    <vehicle id="94" type="923" route="route1" depart="928" color="0,1,0"/>
+    <vehicle id="95" type="923" route="route4" depart="934" color="1,1,0"/>
+    <vehicle id="96" type="924" route="route3" depart="941" color="1,0,0"/>
+    <vehicle id="97" type="924" route="route2" depart="950" color="0,0,1"/>
+    <vehicle id="98" type="923" route="route1" depart="961" color="0,1,0"/>
+    <vehicle id="99" type="924" route="route2" depart="967" color="0,0,1"/>
+    <vehicle id="100" type="924" route="route2" depart="988" color="0,0,1"/>
+    <vehicle id="101" type="924" route="route3" depart="991" color="1,0,0"/>
+</routes>

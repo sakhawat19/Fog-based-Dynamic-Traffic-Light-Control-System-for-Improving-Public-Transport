@@ -1,0 +1,3 @@
+<additional>
+   <laneAreaDetector id="lad7" lane="4to0_0" pos="900" length="1295" freq="1" file="cross.out" timeThreshold="1" speedThreshold="1" jamThreshold="1" friendlyPos="x" />  
+</additional>

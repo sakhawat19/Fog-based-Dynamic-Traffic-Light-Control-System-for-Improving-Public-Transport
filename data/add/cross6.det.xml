@@ -1,0 +1,7 @@
+
+
+<entryExitDetector id="6" freq="30" file="cross.out" timeThreshold="1" speedThreshold="1">
+      <detEntry lane="4to0_0" pos="1095" friendlyPos="x"/>
+
+      <detExit lane="4to0_0" pos="1295" friendlyPos="x"/>
+</entryExitDetector>
