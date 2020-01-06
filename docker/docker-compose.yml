@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  
+  mysql-dev:
+    image: mysql:8.0.2
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: pydocker
+    ports:
+      - "3312:3306"
+
+  client:
+     image: mysql:8.0.2
+     depends_on:
+       - mysql-dev
+     command: mysql -uroot -ppassword -hmysql-dev pydocker
